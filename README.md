@@ -9,9 +9,9 @@ Introduction to Convolution, pooling and paddnig.
 
 2. Number of params in ten 3x3x3 filtres: (3*3*3 + 1[bais]) * 10 = 280
 
-Assignment 1: Implement conv layer in numpy (forward  +backward)
+**Assignment 1:** Implement conv layer in numpy (forward/backward)
 
-Assignment 2: Intro. to TensoeFlow
+**Assignment 2:** Intro. to TensoeFlow
 
 ## Week 2
 

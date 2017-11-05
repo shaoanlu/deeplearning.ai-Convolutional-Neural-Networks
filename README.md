@@ -17,26 +17,22 @@ Introduction to Convolution, pooling and paddnig.
 
 1. ResNet
 
- - Residual block: [image to be updated]
- 
- - Why it works? Skup-connection make NNs easy to laern. Prevent gradient vanishing.
+- Residual block: [image to be updated]  
+- Why it works? Skup-connection make NNs easy to laern. Prevent gradient vanishing.
 
 2. Inception
 
- - Bottleneck layer: Apply 1x1 conv to shrink channle size
- 
- - Concatenate outptu of diffeernt conv routes
+- Bottleneck layer: Apply 1x1 conv to shrink channle size 
+- Concatenate outptu of diffeernt conv routes
 
 
 **Assignment 1:** Intro. to Keras
 
- - Input(shape=...) => Conv2D/BN/ReLU => model=Model(input, output) => mdoel.compile(...) => model.fit(...)
+- Input(shape=...) => Conv2D/BN/ReLU => model=Model(input, output) => mdoel.compile(...) => model.fit(...)
 
 **Assignmnet 2:** ResNet50
-
- - convolution_block: A bolck that contains Conv2D stride2 to reduce dimnesion
- 
- - identity_bolck: Con2B/BN/ReLU => Conv2D/BN => Add => ReLU
+- convolution_block: A bolck that contains Conv2D stride2 to reduce dimnesion 
+- identity_bolck: Con2B/BN/ReLU => Conv2D/BN => Add => ReLU
   
 ## Week 3, Object detection
 
